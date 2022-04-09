@@ -1,0 +1,49 @@
+{
+  "name": "pikachu-da-lei",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.2",
+    "@mui/styled-engine": "^5.6.0",
+    "@nivo/bar": "^0.79.1",
+    "@nivo/funnel": "^0.79.1",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "react-select": "^5.2.2",
+    "ts-loader": "^9.2.8",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "magic": "webpack",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
